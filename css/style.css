@@ -1,0 +1,385 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  box-sizing: border-box;
+}
+h2 {
+  text-align: center;
+  font-size: 35px;
+  font-weight: 600;
+}
+h3 {
+  font-size: 24px;
+  
+}
+h4 {
+  font-size: 18px;
+  color: #535c68;
+
+}
+
+.container {
+  max-width: 95%;
+  margin: 0 auto;
+}
+.btn-primary {
+  padding: 8px 15px;
+  color: #ffffff;
+  background-color: #ee5253;
+  font-size: 15px;
+  border: 1px solid #ee5253;
+  border-radius: 4px;
+}
+
+.btn-primary:hover {
+  background-color: #fc3e3e;;
+}
+.navbar {
+  line-height: 80px;
+}
+
+.navbar .logo {
+  width: 30%;
+  float: left;
+  overflow: hidden;
+}
+
+.navbar .logo img {
+  width: 150px;
+  height: auto;
+  object-fit: cover;
+  
+}
+.navbar .menu {
+  width: 70%;
+  overflow: hidden;
+}
+.navbar .menu ul {
+  list-style: none;
+  text-align: end;
+}
+.navbar .menu ul li{
+  display: inline-block;
+  align-items: center;
+}
+.navbar .menu ul li a{
+  display: inline;
+  color: #192a56;
+  text-decoration: none;
+  text-transform: capitalize;
+  font-size: 16px;
+  font-weight: 500;
+  padding: 10px 8px;
+}
+.navbar .menu ul li a:hover {
+  background-color: #dfe4ea;
+  border-radius: 3px;
+}
+
+/* Food Search area Start here! */
+.food-search {
+  background-image: url('../img/bg.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+  padding: 80px 0;
+}
+
+.food-search input[type="search"] {
+  padding: 8px 15px;
+  width: 30%;
+  border: 1px solid #dfe4ea;
+  font-size: 15px;
+}
+.food-search span {
+  color: #ffffff;
+}
+.food-search span:hover {
+  color: #ee5253;
+}
+/* Food Search area End here! */
+/* Category Search area Start here! */
+.category {
+  padding: 50px 0;
+}
+
+.box {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.box .another-box {
+  flex-basis: 30%;
+  margin-top: 50px;
+}
+.category .box-3 {
+  position: relative;
+}
+.category .box-3 h3 {
+  position: absolute;
+  color: #ffffff;
+  bottom: 50px;
+  left: 40%;
+  text-decoration: none;
+  font-size: 30px;
+}
+
+.box .box-3 img {
+  width: 100%;
+  border-radius: 15px;
+}
+/* Category Search area End here! */
+
+/* Menu area Start here! */
+.menu-area {
+  padding: 80px 0;
+  background-color: #ECECEC;
+}
+.btn-menu {
+  text-decoration: none;
+  padding: 5px 8px;
+  font-size: 14px;
+  display: inline-block;
+  margin-top: 8px;
+}
+.menu-area .food-menu {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+.col-6 {
+  flex-basis: 48%;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  margin-bottom: 3%;
+}
+.food-img {
+  width: 20%;
+  float: left;
+  margin-right: 5%;
+  overflow: hidden;
+}
+.food-img img {
+  width: 100%;
+  border-radius: 20px;
+}
+.food-des {
+  width: 70%;
+  overflow: hidden;
+}
+.menu-area .text-center {
+  text-align: center;
+  margin-top: 20px;
+}
+.menu-area .text-center a {
+  text-align: center;
+  color: #ee5252d8;
+  font-size: 16px;
+  font-weight: 500;
+  text-decoration: none;
+}
+.menu-area .text-center a:hover {
+  color: #f64646;
+}
+/* Menu area End here! */
+/* Fooer area Start here! */
+.footer-area {
+  padding: 15px;
+  text-align: center;
+}
+.footer-area p {
+  font-size: 15px;
+}
+.footer-area p span{
+  color: #ee5253;
+  font-weight: 500;
+}
+.social-icon {
+  margin-bottom: 15px;
+}
+.social-icon a {
+  color: #ffffff;
+  height: 20px;
+  width: 20px;
+  border-radius: 100%;
+  background-color: #1f315d;
+  padding: 5px 10px;
+  
+}
+
+/* Footer area End here! */
+.take-order {
+  background-image: url('../img/bg.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 80px 0;
+}
+.m-width {
+  max-width: 40%;
+  margin: 0 auto;
+  padding: 5%;
+  background-color: #192a568f;
+  border-radius: 20px;
+  margin-top: 30px;
+}
+.order {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px;
+  color: #ffffff;
+}
+
+.order .order-img {
+  width: 20%;
+  float: left;
+  margin-right: 5%;
+  overflow: hidden;
+}
+.order .order-img img {
+  width: 100%;
+  border-radius: 10px;
+}
+.order .order-des {
+  width: 75%;
+  text-align: left;
+  overflow: hidden;
+}
+.order .order-des h4{
+  color: #ffffff;
+}
+.order .order-des p{
+  color: #ffffff;
+  font-size: 18px;
+}
+.m-width input[type="text"],
+.m-width input[type="email"], 
+.m-width input[type="text"],
+.m-width input[type="number"], 
+.m-width textarea {
+  color: #1e272e;
+  font-size: 16px;
+  width: 100%;
+  background-color: #dfe6e9;
+  padding: 8px;
+  border: none;
+  margin-bottom: 8px;
+}
+.m-width label {
+  font-size: 18px;
+  font-weight: 500;
+  text-align: left;
+  margin-bottom: 5px;
+}
+.m-width fieldset {
+  border: none;
+}
+.m-width fieldset legend {
+  text-align: center;
+  font-size: 18px;
+  font-weight: 500;
+  color: #dfe6e9;
+}
+.sub-btn {
+  width: 30%;
+  background-color: #ff5e57;
+  color: #ffffff;
+  font-size: 16px;
+  padding: 8px;
+  border: none;
+  margin-bottom: 8px;
+
+}
+.sub-btn:hover {
+  background-color: #ff3f34;
+
+}
+
+@media only screen and (max-width:768px){
+  .navbar .logo {
+    width: 100%;
+    float: none;
+    text-align: center;
+  }
+  .navbar .menu {
+    width: 100%;
+  }
+  .navbar .menu ul {
+    list-style: none;
+    text-align: center;
+  }
+  .navbar {
+    line-height: 50px;
+  }
+  .menu-area .food-menu {
+    display: flex;
+    flex-direction: column;
+  }
+  .col-6 {
+    flex-basis: 100%;
+    margin-bottom: 3%;
+  }
+  .menu-area {
+    padding: 50px 0;
+  }
+  .category .box-3 h3 {
+    bottom: 50px;
+    left: 30%;
+  }
+}
+
+@media only screen and (max-width:320px){
+  .navbar .logo {
+    width: 100%;
+    float: none;
+    text-align: center;
+  }
+  .navbar .menu {
+    width: 100%;
+  }
+  .navbar .menu ul {
+    list-style: none;
+    text-align: center;
+  }
+  
+  .navbar {
+    line-height: 30px;
+  }
+  .navbar .menu ul li a{
+    display: inline;
+    padding: 5px;
+    font-size: 15px;
+  }
+  .box {
+    display: flex;
+    flex-direction: column;
+  }
+  .box .another-box {
+    flex-basis: 100%;
+    margin-top: 50px;
+  }
+  .menu-area .food-menu {
+    display: flex;
+    flex-direction: column;
+  }
+  .col-6 {
+    flex-basis: 100%;
+    margin-bottom: 3%;
+  }
+  .menu-area {
+    padding: 50px 0;
+  }
+  .food-search input[type="search"] {
+    padding: 8px 15px;
+    width: 80%;
+    margin-bottom: 5px;
+  }
+}
+  
