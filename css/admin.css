@@ -86,6 +86,81 @@
 }
 /* Footer area style end here */
 
+/* Manage admin area start here */
+.btn-primary {
+  padding: 10px 15px;
+  text-decoration: none;
+  font-size: 16px;
+  background-color: #0984e3;
+  color: #ffffff;
+}
+.btn-primary:hover {
+  background-color: #0d71bd;
+}
+.btn-success {
+  padding: 8px 12px;
+  text-decoration: none;
+  font-size: 16px;
+  background-color: #2ecc71;
+  color: #000000;
+}
+.btn-success:hover {
+  background-color: #18b158;
+}
+.btn-danger {
+  padding: 8px 12px;
+  text-decoration: none;
+  font-size: 16px;
+  background-color: #fa6b6b;
+  color: #ffffff;
+}
+.btn-danger:hover:hover {
+  background-color: #ec5656;
+}
+
+
+
+.tbl {
+  width: 90%;
+  margin-top: 20px;
+}
+.tbl tr {
+  margin-top: 20px;
+}
+.tbl tr th {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #000000;
+}
+.tbl tr td {
+  padding: 10px;
+  text-align: left;
+}
+.tbl tr:nth-child(even) {
+  background-color: #82ccdd4a;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media only screen and (max-width: 768px){
   .box {
     display: flex;
