@@ -139,6 +139,28 @@
 .tbl tr:nth-child(even) {
   background-color: #82ccdd4a;
 }
+/* Manage Admin end here */
+
+/* Add Admin area start here */
+.tbl-info {
+  max-width: 30%;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+.tbl-info tr td {
+  font-size: 16px;
+  font-weight: 500;
+}
+.tbl-info input {
+  padding: 8px;
+  border: 1px solid #81ecec;
+  margin-bottom: 8px;
+}
+.tbl-info .btn-primary {
+  border: none;
+  margin-top: 10px;
+}
+/* Add Admin area end here */
 
 
 

@@ -5,7 +5,7 @@
     <div class="container">
       <h1 class="text-center">Manage Admin</h1>
       <!-- Add Admin button -->
-      <a class="btn-primary" href="">Add Admin</a>
+      <a class="btn-primary" href="add-admin.php">Add Admin</a>
       <table class="tbl">
         <tr>
           <th>S.N</th>
