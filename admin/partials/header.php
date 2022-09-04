@@ -1,4 +1,10 @@
-<?php include_once('config.php'); ?>
+<?php include_once('config.php'); 
+
+  if(!isset($_SESSION['logout'])){
+    header('location:'.SITEURL."/admin/logout.php");
+  }
+
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -20,6 +26,7 @@
           <li><a href="manage-category.php">category</a></li>
           <li><a href="manage-food.php">food</a></li>
           <li><a href="manage-order.php">order</a></li>
+          <li><a href="logout.php">Logout</a></li>
         </ul>
       </nav>
     <!-- Menu area End here -->

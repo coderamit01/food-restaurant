@@ -53,6 +53,9 @@
 .main-content h1{
   font-size: 40px;
 }
+.main-content .success {
+  color: #18b158;
+}
 .box {
   display: flex;
   flex-direction: row;
@@ -143,7 +146,7 @@
 
 /* Add Admin area start here */
 .tbl-info {
-  max-width: 30%;
+  max-width: 40%;
   margin: 0 auto;
   margin-top: 20px;
 }
@@ -155,6 +158,7 @@
   padding: 8px;
   border: 1px solid #81ecec;
   margin-bottom: 8px;
+  font-size: 16px;
 }
 .tbl-info .btn-primary {
   border: none;
@@ -162,6 +166,39 @@
 }
 /* Add Admin area end here */
 
+/* Login page Style */
+
+.log-info {
+  max-width: 30%;
+  margin: 10% auto;
+  background-color: #192a5642;
+  padding: 30px;
+}
+.log-info h2 {
+  margin-bottom: 15px;
+}
+.form-center label {
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+.form-center input[type = 'text'],
+.form-center input[type = 'password']{
+  padding: 8px;
+  width: 100%;
+  border: 1px solid #dff9fb;
+  margin-bottom: 15px;
+}
+.form-center input[type = 'submit']{
+  padding: 8px 25px;
+  border: none;
+}
+
+.input-center {
+  display: block;
+  text-align: center;
+  margin-top: 15px;
+}
 
 
 
