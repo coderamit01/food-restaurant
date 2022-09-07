@@ -200,6 +200,25 @@
   margin-top: 15px;
 }
 
+.no-border {
+  border: none;
+}
+
+/* Manage category area */
+
+.tbl .img-fit img {
+  width: 80px;
+  height: auto;
+  object-fit: cover;
+  
+}
+
+.category-form {
+  max-width: 40%;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
 
 
 
