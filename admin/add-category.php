@@ -51,7 +51,7 @@
   <header class="main-content">
     <div class="container">
       <h1 class="text-center">Add Category</h1>
-      <form class="category-form" action="" method="POST" enctype="multipart/form-data">
+      <form class="category-form tbl-info" action="" method="POST" enctype="multipart/form-data">
         <table>
           <tr>
             <td><label for="t">Title: </label></td>

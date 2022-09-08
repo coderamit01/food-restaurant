@@ -17,7 +17,7 @@
   <section class="main-content">
     <div class="container">
       <h1 class="text-center">Update Category</h1>
-      <form class="category-form" action="" method="POST" enctype="multipart/form-data">
+      <form class="category-form tbl-info" action="" method="POST" enctype="multipart/form-data">
       <table>
           <tr>
             <td><label for="t">Title: </label></td>
@@ -53,9 +53,9 @@
           <tr>
           <td><label for="a">Active:</label></td>
             <td>
-              <input <?php if($active == "Yes"){echo "checked";} ?> type="radio" name="active" value="Yes" value="Yes">Yes
+              <input <?php if($active == "Yes"){echo "checked";} ?> type="radio" name="active" value="Yes">Yes
 
-              <input <?php if($active == "No"){echo "checked";} ?> type="radio" name="active" value="No" value="No">No
+              <input <?php if($active == "No"){echo "checked";} ?> type="radio" name="active" value="No">No
             </td>
           </tr>
           <tr>
