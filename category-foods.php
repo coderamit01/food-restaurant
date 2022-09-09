@@ -1,76 +1,12 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <link rel="stylesheet" type="text/css" href="css/style.css">
-  <title>Food Restaurant</title>
-</head>
-<body>
-  <header class="header-area">
-    <div class="container">
-      <!-- Menu Area Start here-->
-      <div class="navbar">
-        <div class="logo">
-          <a href="index.html"><img src="img/logo.png" alt="logo"></a>
-        </div>
-        <nav class="menu">
-          <ul>
-            <li><a href="index.html">home</a></li>
-            <li><a href="categories.html">categories</a></li>
-            <li><a href="foods.html">food</a></li>
-            <li><a href="#">contact</a></li>
-          </ul>
-        </nav>
-      </div>
-    </div>
-  </header>
+<?php require_once('partials-front/header-menu.php'); ?>
       <!-- Menu Area End here-->
       <!-- Search Area Start here-->
       <div class="food-search">
         <div class="container">
-          <form action="" method="POST">
-            <input type="search" name="search" placeholder="Search For Food...">
-            <input class="btn-primary" type="submit" name="submit" value="Search">
-          </form>
+         <h2>Foods On <span>"Category"</span></h2>
         </div>
       </div>
       <!-- Search Area End here-->
-      <!-- Category Area Start here-->
-      <div class="category">
-        <div class="container">
-          <h2>Explore Foods</h2>
-          <div class="box">
-            <div class="another-box">
-              <a href="">
-                <div class="box-3">
-                  <img src="img/pizza.jpg" alt="pizza">
-                  <h3>Pizza</h3>
-                </div>
-              </a>
-            </div>
-            <div class="another-box">
-              <a href="">
-                <div class="box-3">
-                  <img src="img/burger.jpg" alt="burger">
-                  <h3>Burger</h3>
-                </div>
-              </a>
-            </div>
-            <div class="another-box">
-              <a href="">
-                <div class="box-3">
-                  <img src="img/momo.jpg" alt="momo">
-                  <h3>Momo</h3>
-                </div>
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!-- Category Area End here-->
       <!-- Menu Area Start here-->
       <div class="menu-area">
         <div class="container">
@@ -84,7 +20,7 @@
                 <h3>Pizza</h3>
                 <h4>$2.3</h4>
                 <p>Made with Italian Sauce, Chicken, and organice vegetables.</p>
-                <a class="btn-menu btn-primary" href="order.html">Order Now</a>
+                <a class="btn-menu btn-primary" href="">Order Now</a>
               </div>
             </div>
             <div class="col-6">
@@ -95,7 +31,7 @@
                 <h3>Burger</h3>
                 <h4>$2.3</h4>
                 <p>Made with Italian Sauce, Chicken, and organice vegetables.</p>
-                <a class="btn-menu btn-primary" href="order.html">Order Now</a>
+                <a class="btn-menu btn-primary" href="">Order Now</a>
               </div>
             </div>
             <div class="col-6">
@@ -106,7 +42,7 @@
                 <h3>Pizza</h3>
                 <h4>$2.3</h4>
                 <p>Made with Italian Sauce, Chicken, and organice vegetables.</p>
-                <a class="btn-menu btn-primary" href="order.html">Order Now</a>
+                <a class="btn-menu btn-primary" href="">Order Now</a>
               </div>
             </div>
             <div class="col-6">
@@ -117,7 +53,7 @@
                 <h3>Burger</h3>
                 <h4>$2.3</h4>
                 <p>Made with Italian Sauce, Chicken, and organice vegetables.</p>
-                <a class="btn-menu btn-primary" href="order.html">Order Now</a>
+                <a class="btn-menu btn-primary" href="">Order Now</a>
               </div>
             </div>
             <div class="col-6">
@@ -128,7 +64,7 @@
                 <h3>Pizza</h3>
                 <h4>$2.3</h4>
                 <p>Made with Italian Sauce, Chicken, and organice vegetables.</p>
-                <a class="btn-menu btn-primary" href="order.html">Order Now</a>
+                <a class="btn-menu btn-primary" href="">Order Now</a>
               </div>
             </div>
             <div class="col-6">
@@ -139,7 +75,7 @@
                 <h3>Burger</h3>
                 <h4>$2.3</h4>
                 <p>Made with Italian Sauce, Chicken, and organice vegetables.</p>
-                <a class="btn-menu btn-primary" href="order.html">Order Now</a>
+                <a class="btn-menu btn-primary" href="">Order Now</a>
               </div>
             </div>
           </div>

@@ -129,7 +129,7 @@
             header('location:'.SITEURL."/admin/manage-food.php");
             die();
           }
-          if($image_name != ""){
+          if($current_image != ""){
             $remove_path = "../img/food/".$current_image;
             $remove = unlink($remove_path);
 
