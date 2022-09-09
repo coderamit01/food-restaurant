@@ -3,7 +3,7 @@
       <!-- Search Area Start here-->
       <div class="food-search">
         <div class="container">
-          <form action="" method="POST">
+          <form action="<?php echo SITEURL; ?>/foods-search.php" method="POST">
             <input type="search" name="search" placeholder="Search For Food...">
             <input class="btn-primary" type="submit" name="submit" value="Search">
           </form>

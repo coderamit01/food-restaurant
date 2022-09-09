@@ -7,7 +7,7 @@ use function PHPSTORM_META\elementType;
       <!-- Search Area Start here-->
       <div class="food-search">
         <div class="container">
-          <form action="" method="POST">
+          <form action="<?php echo SITEURL; ?>/foods-search.php" method="POST">
             <input type="search" name="search" placeholder="Search For Food...">
             <input class="btn-primary" type="submit" name="submit" value="Search">
           </form>
@@ -29,7 +29,7 @@ use function PHPSTORM_META\elementType;
                   $image_name = $rows['image_name']  ?>
 
                     <div class="another-box">
-                      <a href="">
+                      <a href="<?php echo SITEURL; ?>/category-foods.php?category_id=<?php echo $id; ?>">
                         <div class="box-3">
                           <?php 
                             if($image_name != ""){

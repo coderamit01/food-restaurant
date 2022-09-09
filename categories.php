@@ -14,7 +14,7 @@
                 $image_name = $rows['image_name']; ?>
 
                 <div class="another-box">
-                  <a href="">
+                  <a href="<?php echo SITEURL; ?>/category-foods.php?category_id=<?php echo $id; ?>">
                     <div class="box-3">
                       <?php 
                         if($image_name != ""){
