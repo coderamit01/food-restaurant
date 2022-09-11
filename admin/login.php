@@ -3,8 +3,9 @@
 
   if(isset($_POST['login'])){
 
-    $username = $_POST['username'];
+    $username = mysqli_real_escape_string($connection, $_POST['username']);
     $password = md5($_POST['password']);
+    $new_pass = mysqli_real_escape_string($connection, $password);
 
     $sql = mysqli_query($connection, "SELECT * FROM tbl_admin WHERE username = '$username' AND password = '$password' ");
     $count =  mysqli_num_rows($sql);

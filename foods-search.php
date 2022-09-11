@@ -5,6 +5,7 @@
         <div class="container">
           <?php
             $search = $_POST['search'];
+            $search = mysqli_real_escape_string($connection, $_POST['search']);
           ?>
          <h2>Foods on Your Search <span>"<?php echo $search; ?>"</span></h2>
         </div>

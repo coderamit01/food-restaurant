@@ -15,7 +15,7 @@
       <!-- Menu Area Start here-->
       <div class="navbar">
         <div class="logo">
-          <a href="index.html"><img src="img/logo.png" alt="logo"></a>
+          <a href="<?php echo SITEURL; ?>/index.php"><img src="img/logo.png" alt="logo"></a>
         </div>
         <nav class="menu">
           <ul>

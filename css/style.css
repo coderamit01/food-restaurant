@@ -262,6 +262,10 @@ h4 {
   color: #ffffff;
   font-size: 18px;
 }
+.order-des .price-clr {
+  color: #c0392b;
+  font-weight: 500;
+}
 .m-width input[type="text"],
 .m-width input[type="email"], 
 .m-width input[type="text"],

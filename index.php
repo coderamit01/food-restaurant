@@ -1,6 +1,5 @@
 <?php
 
-use function PHPSTORM_META\elementType;
 
  require_once('partials-front/header-menu.php'); ?>
       <!-- Menu Area End here-->
@@ -84,9 +83,9 @@ use function PHPSTORM_META\elementType;
                     </div>
                     <div class="food-des">
                       <h3><?php echo $title; ?></h3>
-                      <h4><?php echo '$'.$price; ?></h4>
+                      <h4 class="price-clr"><?php echo '$'.$price; ?></h4>
                       <p><?php echo $description; ?></p>
-                      <a class="btn-menu btn-primary" href="order.php">Order Now</a>
+                      <a class="btn-menu btn-primary" href="<?php echo SITEURL; ?>/order.php?food_id=<?php echo $id; ?>">Order Now</a>
                     </div>
                   </div>
                   <?php endwhile; ?>
